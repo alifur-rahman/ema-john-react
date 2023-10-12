@@ -1,0 +1,20 @@
+.shoping_container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 35px;
+}
+.shoping_products {
+  padding-left: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.shoping_cart {
+  background-color: rgba(255, 153, 0, 0.3);
+  position: sticky;
+  top: 80px;
+  height: calc(100vh - 120px);
+  padding: 20px;
+}

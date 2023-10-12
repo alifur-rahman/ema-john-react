@@ -1,0 +1,55 @@
+.shoping_cart .cart_info h2 {
+  color: #1c2b35;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0;
+}
+.cart_info p {
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.085px;
+}
+.cart_info h4 {
+  color: #0e161a;
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.032px;
+}
+.al_btn {
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.085px;
+  padding: 15px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.btn-danger {
+  background: #ff3030;
+}
+.btn-danger:hover {
+  background: #ff3030d7;
+}
+.btn-orenge {
+  background: #f90;
+}
+.btn-orenge:hover {
+  background: rgba(255, 153, 0, 0.848);
+}

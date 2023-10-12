@@ -1,0 +1,132 @@
+.auth_from_container {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #95a0a7;
+  background: #fff;
+  padding: 20px 35px;
+  margin: 100px auto;
+  box-sizing: border-box;
+}
+.auth_from_container::after {
+  position: absolute;
+  left: -15px;
+  content: "";
+  top: 16px;
+  border-radius: 8px;
+  background: #fedfb2;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.auth_from input {
+  border-radius: 5px;
+  border: 1px solid #95a0a7;
+  width: 100%;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.auth_from h3 {
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.088px;
+  text-align: center;
+  margin: 10px 0;
+}
+.auth_from label {
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.026px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.form-group {
+  padding: 10px 0;
+}
+.btn-orenge-light {
+  background: rgba(255, 153, 0, 0.3);
+  border: none !important;
+  color: #0e161a;
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.032px;
+}
+.btn-orenge-light:hover {
+  background: rgba(255, 153, 0, 0.864);
+}
+.auth_from .switch_text {
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.038px;
+  text-align: center;
+  margin: 0;
+}
+.switch_text a {
+  color: #f90;
+  text-decoration: none;
+}
+.switch_text a:hover {
+  color: rgb(153, 94, 4);
+}
+
+.al_block_divider {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.al_block_divider span {
+  height: 1px;
+  width: 40%;
+  background: #95a0a7;
+}
+.al_block_divider p {
+  margin: 0;
+  margin-bottom: 2px;
+  color: #95a0a7;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.085px;
+}
+.al-google-btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.085px;
+  border-radius: 8px;
+  border: 1px solid #95a0a7;
+  background: #fff;
+  padding: 10px 0;
+}
+.show_error {
+  color: red;
+}
